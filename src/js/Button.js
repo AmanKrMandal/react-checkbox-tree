@@ -17,7 +17,6 @@ class Button extends React.PureComponent {
         return (
             <button
                 aria-label={title}
-                title={title}
                 type="button"
                 {...props}
             >
